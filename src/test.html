@@ -1,0 +1,50 @@
+<style type="text/css">#s360-scroll-to-top {
+    display: none;
+
+    position: fixed;
+    right: 3%;
+    bottom: 6%;
+    left: auto;
+    top: auto;
+    z-index: 2000;
+}
+
+a.s360-scroll-to-top-button {
+    background-color: #dedede;
+    background-image: none;
+    background-size: cover;
+    border-radius: 4px;
+    border: 1px solid #777;
+    color: #000;
+    padding: 7px 20px 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 86px;
+    height: 30px;
+    opacity: 0.70;
+    display: inline;
+}
+
+a.s360-scroll-to-top-button:hover {
+    background-color: #fff;
+}
+
+</style>
+<script data-ignore="true" type="text/javascript" src="https://www.aquasabi.de/includes/plugins/s360_scrolltotop_shop4/version/100/frontend/js/s360-scroll-to-top.js"></script><script type="text/javascript">
+    window.lpaCallbacksExecuted = false;
+    window.onAmazonLoginReady = function () {
+        amazon.Login.setClientId('amzn1.application-oa2-client.09784cd875f842fb87405439dfc8d0e2');
+        amazon.Login.setUseCookie(true);
+        amazon.Login.setSandboxMode(0);
+    };
+    window.onAmazonPaymentsReady = function () {
+        /* prevents later scripts from registering too late for the event if the async was loaded "too fast" */
+        window.lpaCallbacksExecuted = true;
+        if (typeof window.lpaCallbacks === "undefined") {
+            window.lpaCallbacks = [];
+        }
+        for (var i = 0; i < window.lpaCallbacks.length; i++) {
+            window.lpaCallbacks[i]();
+        }
+    };
+</script>
