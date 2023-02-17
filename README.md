@@ -21,7 +21,7 @@ Im Prinzip könnten nun einfach alle Tags entfernt werden, indem spitze öffnend
     <br><tag attribut=" 'Wert' '> <br>\<tag attribut='Wert'>
 * Zwischen den Tags
     <br>\<style> ... \</style><br>
-    \<head> ... \<head>
+    \<head> ... \</head>
 
 Daher werden Kommentare, Werte in Anführungszeichen, und style- bzw. head-Elemente überlesen. Des weiteren müssen Sonderzeichen entsprechend der folgenden Tabelle dekodiert werden:
 
