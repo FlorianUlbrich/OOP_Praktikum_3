@@ -26,6 +26,7 @@ Im Prinzip könnten nun einfach alle Tags entfernt werden, indem spitze öffnend
 Daher werden Kommentare, Werte in Anführungszeichen, und style- bzw. head-Elemente überlesen. Des weiteren müssen Sonderzeichen entsprechend der folgenden Tabelle dekodiert werden:
 
 |HTML|\&auml;|\&Auml;|\&ouml;|\&Ouml;|\&uuml;|\&Uuml;|\&szlig;|
+--- | --- | ---| ---|---| ---| ---| ---| 
 |Text|ä|Ä|ö|Ö|ü|ü|ß|
 
 <br>
