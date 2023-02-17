@@ -32,6 +32,7 @@ Daher werden Kommentare, Werte in Anführungszeichen, und style- bzw. head-Eleme
 <br>
 
 |HTML|\&lt;|\&gt;|\&amp;|\&quot;|\&znbsp;|
+---| ---|---|---|---|---|
 |Text|<|>|&|"|Leerzeichen|
 
 
