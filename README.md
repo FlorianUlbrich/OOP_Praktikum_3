@@ -9,7 +9,7 @@ Ein HTML (Hyper Text Markup Language) Dokument besteht aus Tags, welche festlege
 
 Tags sollten in der Regel paarweise auftreten. Das erste Element besteht aus einer öffnenden spitzen Klammer, dem Tag selbst, sowie möglicherweise Parameter, und einer schließenden spitzen Klammer.
 
-Das zweite Element besteht aus einer öffnenden spitzen Klammer, dem Zeichen "*, dem Tag, und einer schließenden spitzen Klammer. Beispiel:
+Das zweite Element besteht aus einer öffnenden spitzen Klammer, dem Zeichen "/", dem Tag, und einer schließenden spitzen Klammer. Beispiel:
 
 \<H1 align=center> </H1>
 
