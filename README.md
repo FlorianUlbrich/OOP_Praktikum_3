@@ -11,7 +11,7 @@ Tags sollten in der Regel paarweise auftreten. Das erste Element besteht aus ein
 
 Das zweite Element besteht aus einer öffnenden spitzen Klammer, dem Zeichen "/", dem Tag, und einer schließenden spitzen Klammer. Beispiel:
 
-\<H1 align=center> </H1>
+\<H1 align=center> \</H1>
 
 Im Prinzip könnten nun einfach alle Tags entfernt werden, indem spitze öffnende und schließende Klammern erkannt werden. Allerdings können diese auch in folgenden Fällen auftreten:
 
